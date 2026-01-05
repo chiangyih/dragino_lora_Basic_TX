@@ -3,7 +3,8 @@
 #include <LoRa.h>
 
 // 定義發送的數值
-const int signalValue = 2;
+// const int signalValue = 2;
+String signalValue = "Hello LoRa";
 
 void setup() {
   Serial.begin(9600);
